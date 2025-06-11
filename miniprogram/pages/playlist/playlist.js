@@ -12,7 +12,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    // wx.cloud.callFunction({
+    //     name: 'login',
+    //     data: {
+    //       $url: 'music'
+    //     },
+    //   }).then((res) => {
+    //     console.log(res)
+    //   })
   },
 
   /**
